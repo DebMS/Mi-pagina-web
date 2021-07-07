@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto+Condensed:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="body-fondo-pantalla">
+    <!-- HEADER -->
+    <header class="header">
+      <div class="container">
+        <div class="header__logo">
+          <img src="../images/Logo.png" alt="LogoDeb" />
+        </div>
+        <nav class="header__menu">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="servicios.html">Servicio</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- MAIN -->
+    <main>
+      <div class="contenedor">
+        <form class="form">
+          <div class="form__header">
+            <h1 class="form__title">Contacto</h1>
+          </div>
+          <label for="nombre" class="form__label">Nombre</label>
+          <input
+            type="text"
+            id="nombre"
+            class="form__input"
+            placeholder="Escriba su nombre"
+          />
+
+          <label for="direccion" class="form__label">Correo Electronico</label>
+          <input
+            type="email"
+            class="form__input"
+            id="correo"
+            placeholder="Escriba su correo"
+          />
+
+          <label for="mensaje" class="form__label">Mensaje</label>
+          <textarea
+            id="mensaje"
+            class="form__textarea"
+            placeholder="Escriba su mensaje..."
+            cols="30"
+            rows="10"
+          ></textarea>
+          <input type="submit" class="input__submit" value="Enviar Mensaje" />
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-color">
+          <h3>Deb - Desarrollo Web</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+            architecto saepe non quisquam vel quos.
+          </p>
+          <div class="icon-links">
+            <div class="facebook">
+              <a href="https://www.facebook.com/"
+                ><img src="../images/facebook.png" class="img-face" />
+              </a>
+            </div>
+            <div class="instagram">
+              <a href="https://www.instagram.com/"
+                ><img src="../images/instagram.png" class="img-inst"
+              /></a>
+            </div>
+            <div class="gmail">
+              <a href="https://mail.google.com/mail/u/0/#inbox"
+                ><img src="../images/gmail.png" class="img-gm" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>© 2021 Deb Desarrollo Web -Todos los derechos reservados-</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
